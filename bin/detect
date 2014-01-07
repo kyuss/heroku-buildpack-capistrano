@@ -3,7 +3,7 @@
 require 'pathname'
 
 if Pathname.new(ARGV.first).join("Capfile").exist?
-  puts "Ruby"
+  puts "Capistrano"
   exit 0
 else
   puts "no"
