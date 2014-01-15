@@ -11,3 +11,4 @@ group :development, :test do
 end
 
 gem 'capistrano', '~> 2.13'
+gem 'capistrano_colors'
